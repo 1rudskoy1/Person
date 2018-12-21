@@ -1,0 +1,192 @@
+body{
+	background: black;
+}
+h1,h2,h3{
+	color: white;
+	text-align: center;
+	border-bottom: 2px solid white;
+	padding-bottom: 20px;
+}
+.title{
+	border:none;
+}
+.content{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.characters{
+	width: 300px;
+	border:2px solid white;
+}
+.list{
+}
+.character{
+	display: flex;
+	justify-content: space-between;
+}
+.list__item{
+	position: relative;
+	color: white;
+	line-height: 30px;
+	font-size: 16px;
+	list-style: none;
+	width: 200px;
+}
+.list__item_count{
+    color: white;
+    width: 161px;
+    display: block;
+    float: right;
+    padding-top: 7px;
+}
+.skills{
+	width: 300px;
+	border:2px solid white;
+}
+.list__skill{
+	color: white;
+	line-height: 30px;
+	font-size: 16px;
+	list-style: none;
+}
+.list__skill_name{
+	color: white;
+}
+
+.experiance{
+	position: relative;
+	border:1px solid white;
+	text-align: center;
+	width: 225px;
+}
+.fill{
+	max-width: 100%;
+	position: absolute;
+    height: 30px;
+    width:0;
+    z-index: -10;
+    top: 0;
+    background: silver;
+}
+.kvests{
+	display: flex;
+	border:2px solid white;
+	color: white;
+    padding: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.task{
+	border:2px solid white;
+	margin: 0 20px;
+	flex-basis: 320px;
+	margin-bottom: 30px;
+}
+.task__wards{
+	padding: 0;
+	margin: 0;
+}
+.task__wards_ward{
+	list-style: none;
+	padding-left: 20px;
+	line-height: 25px
+}
+.button{
+	color: white;
+	width: 100%;
+	background: black;
+	border:1px solid white;
+	margin-top: 10px;
+}
+.button:hover{
+	cursor: pointer;
+	color: black;
+	background: white;
+	border:1px solid black;
+}
+.input{
+	padding: 0 5px;
+	display: block;
+    background: white;
+    border: 1px solid black;
+    width: 250px;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.create__button{
+	display: block;
+	color: white;
+	width: 100%;
+	background: black;
+	border:1px solid white;
+	margin-top: 10px;
+}
+.add__button{
+	color: black;
+	background: white;
+	border:1px solid black;
+	padding: 5px 10px;
+}
+.add__button:hover{
+	color: white;
+	background: black;
+	border:1px solid white;
+}
+.remove__button{
+	color: red;
+	background: white;
+	padding: 5px 10px;
+	border:1px solid red;
+}
+.remove__button:hover{
+	color: white;
+	background: red;
+	border:1px solid white;
+}
+.create__button:hover{
+	cursor: pointer;
+	color: black;
+	background: white;
+	border:1px solid black;
+}
+.add__ward{
+	margin-left: 20px;
+}
+.select__category{
+	margin-bottom: 8px;
+}
+.skills__button{
+	border:1px solid white;
+	color: black;
+	background: white;
+	width: 100%;
+	margin: 20px 0 0 0px;
+	padding: 10px 0px;
+}
+.skills__button:hover{
+	cursor: pointer;
+	color: white;
+	background: black;
+	border:1px solid black;
+}
+.skills__add-name{
+	margin: 15px 0;
+    background: black;
+    width: 71%;
+    height: 26px;
+    color: white;
+}
+.skill__add{
+	height: 32px;
+    color: white;
+    border:1px solid white;
+    background: black;
+    margin-left: 10px;
+}
+.skill__add:hover{
+    color: black;
+    background: white;
+    border:1px solid black;
+    cursor: pointer;
+}

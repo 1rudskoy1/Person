@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Person</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Person</h1>
+	<div class="content">
+		<div class="characters">
+			<h2>Характеристики</h2>
+			<ul class="list">
+				<div class="character">
+					<li class="list__item">Сила</li><span class="list__item_count">2</span>
+				</div>
+				<div class="character">
+					<li class="list__item">Выносливость</li><span class="list__item_count">32</span>
+				</div>
+				<div class="character">
+					<li class="list__item">Мудрость</li><span class="list__item_count">12</span>
+				</div>
+				<div class="character">
+					<li class="list__item">Ловкость</li><span class="list__item_count">22</span>
+				</div>
+			</ul>
+		</div>
+		<div class="add">
+			<h2>Добавить квест</h2>
+			<input class="add__name input" type="text" placeholder="Задание">
+			<div class="add__form">
+				<select class="select__category">
+
+				</select>
+				<input class="add__ward input" type="number" placeholder="колличетво">
+			</div>
+			<button class="add__button" href="#">Добавить</button>
+			<button class="remove__button" href="#">Удалить</button>
+			<button class="create__button" href="#">Создать</button>
+		</div>
+		<div class="skills">
+			<h2>Навыки</h2>
+			<ul class="list list-skill">
+				<li class="list__skill">
+					<strong class="list__skill_name">Бег</strong>-<span class="skill-level">3</span>
+					<div class="experiance">
+						<span class="current_expa">0</span>/
+						<div class="fill"></div>
+						<span class="need_expa">500</span>
+					</div>
+				</li>
+				<li class="list__skill">
+					<strong class="list__skill_name">Английсский</strong>-<span class="skill-level">2</span>
+					<div class="experiance"><span class="current_expa">0</span>/<div class="fill"></div><span class="need_expa">250</span></div>
+				</li>
+				<li class="list__skill">
+					<strong class="list__skill_name">Frontend</strong>-<span class="skill-level">5</span>
+					<div class="experiance"><span class="current_expa">0</span>/<div class="fill"></div><span class="need_expa">1000</span></div>
+				</li>
+				<li class="list__skill">
+					<strong class="list__skill_name">Backend</strong>-<span class="skill-level">1</span>
+					<div class="experiance"><span class="current_expa">0</span>/<div class="fill"></div><span class="need_expa">100</span></div>
+				</li>
+				<li class="list__skill">
+					<strong class="list__skill_name">Язык тела</strong>-<span class="skill-level">1</span>
+					<div class="experiance"><span class="current_expa">0</span>/
+						<div class="fill"></div>
+						<span class="need_expa">100</span>
+					</div>
+				</li>
+			</ul>
+			<button class="skills__button">Добавить навык</button>
+		</div>
+	</div>
+	<div class="three">
+		<h2 class="title">Квесты</h2>
+		<div class="kvests">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
